@@ -1,6 +1,6 @@
 {
 	"deploy": {
-		"env": "production",
+		"env": "development",
 		"rakegoals": ["db:migrate --trace"]
 	}
 }
