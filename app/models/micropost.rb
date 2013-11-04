@@ -6,6 +6,6 @@ class Micropost < ActiveRecord::Base
   
   validates_length_of :content, :maximum => 140
   validates_presence_of :content, :user_id
-  # validates_numericality_of :user_id
+  validates_numericality_of :user_id, :only_integer => true
   
 end
