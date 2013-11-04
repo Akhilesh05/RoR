@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
   
-  has_many :microposts, inverse_of: :User
+  has_many :microposts, inverse_of: :user
   
   #  #  #  #  #  #  #  Old way to do the same thing  #  #  #  #  #  #  #  #  #  #  #  #  #
   #                                                                                      #
